@@ -1,0 +1,13 @@
+name: OreGenerator
+main: me.pkt77.oregenerator.OreGenerator
+version: 2.0
+author: pkt77
+
+commands:
+    og:
+        description: Shows list of commands.
+
+permissions:
+    og.reload:
+        description: Reloads the config file.
+        default: false
