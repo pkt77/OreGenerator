@@ -62,9 +62,6 @@ public class Listeners implements Listener {
 						if (chance > emerald && chance <= diamond) {
 							b.setType(Material.DIAMOND_ORE);
 						}
-						if (chance > diamond && chance <= 100) {
-							b.setType(Material.COBBLESTONE);
-						}
 					}
 				}
 			}
